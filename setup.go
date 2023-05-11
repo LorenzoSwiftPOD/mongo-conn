@@ -18,10 +18,10 @@ type tokens struct {
 
 func (t *tokens) init() {
 	t.uri = os.Getenv("MongoURI")
-	t.port = os.Getenv("SwiftMongoPort")
-	t.user = os.Getenv("SwiftMongoUser")
-	t.password = os.Getenv("SwiftMongoPassword")
-	t.authDatabase = os.Getenv("SwiftMongoAuthDatabase")
-	t.authMechanism = os.Getenv("SwiftMongoAuthMechanism")
+	t.port = os.Getenv("MongoPort")
+	t.user = os.Getenv("MongoUser")
+	t.password = os.Getenv("MongoPassword")
+	t.authDatabase = os.Getenv("MongoAuthDatabase")
+	t.authMechanism = os.Getenv("MongoAuthMechanism")
 
 }
