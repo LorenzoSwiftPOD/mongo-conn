@@ -1,4 +1,4 @@
-module github.com/LorenzoSwiftPOD/mongo-conn
+module github.com/SwiftPODEns/mongo-conn
 
 go 1.19
 
